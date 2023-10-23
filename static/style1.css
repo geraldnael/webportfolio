@@ -1,0 +1,39 @@
+h1 {
+  color: white;
+  font-size: 24px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  background-image: url("/static/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  padding: 50px 50px;
+  background-color: red;
+  color: red;
+  border: none;
+  cursor: url("pencil.png") 17 55, auto;
+}
+
+#result {
+  margin-top: 20px;
+}
